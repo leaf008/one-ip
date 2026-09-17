@@ -39,7 +39,7 @@ IP 查询、网络诊断、浏览器检测与 AI 服务状态工具箱。
 
 项目使用 **Cloudflare Workers + Static Assets**，`/api/*` 接口需要 Worker。基础功能无需应用环境变量或 API Key。Turnstile 和 reCAPTCHA 的配置见“验证体验”。
 
-Workers Builds 会在 `main` 收到提交时构建和部署。上方按钮使用原项目地址；需要保留 Fork 关系和更新工作流时，请按教程导入你的 Fork。
+Workers Builds 会在 `main` 收到提交时构建和部署。首次连接 Git 仓库后若尚未开始构建，可以向 `main` 提交一次更新来触发构建。上方按钮使用原项目地址；需要保留 Fork 关系和更新工作流时，请按教程导入你的 Fork。
 
 ## 功能
 
